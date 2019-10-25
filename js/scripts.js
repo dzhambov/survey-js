@@ -1,6 +1,16 @@
 $(document).ready(function() {
+  $(#"").submit(function(event) {
+    var color = $("select#color").val();
+    var browser = $("select#browser").val();
+    var pc = $("select#pc").val();
+    var city = $("select#city").val();
+    event.preventDefault();
+
+  }
+
+
   $("form.language").submit(function(event) {
-    var value = $("#language option:selected")
+    var value = $("#language option:selected").val();
     event.preventDefault();
 
     if (value === "ruby") {
@@ -13,7 +23,7 @@ $(document).ready(function() {
       $("c#").hide();
       $("python").show();
 
-   } else ( value === "c#"")
+    } if ( value === "c#"") {
       $("ruby").hide();
       $("python").hide();
       $("c#").show();
