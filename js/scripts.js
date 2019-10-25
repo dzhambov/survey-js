@@ -1,10 +1,13 @@
 $(document).ready(function() {
-  $(#"").submit(function(event) {
+  $("form#questions").submit(function(event) {
     var color = $("select#color").val();
     var browser = $("select#browser").val();
     var pc = $("select#pc").val();
     var city = $("select#city").val();
     event.preventDefault();
+
+    if (value === "red" && "safary")
+      $("")
 
   }
 

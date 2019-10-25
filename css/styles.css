@@ -6,3 +6,9 @@ img #python {
   width: 40%;
   height: 40%;
 }
+.banner {
+  display: flex;
+  background-color: teal;
+  justify-content: center;
+
+}
