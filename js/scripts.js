@@ -7,11 +7,13 @@ $(document).ready(function() {
       $("python").hide();
       $("c#").hide();
       $("ruby").show();
+
     } else (value === "python") {
       $("ruby").hide();
       $("c#").hide();
       $("python").show();
-    } if ( value === "c#"") {
+
+   } else ( value === "c#"")
       $("ruby").hide();
       $("python").hide();
       $("c#").show();
