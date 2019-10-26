@@ -9,7 +9,7 @@ $(document).ready(function() {
     if (value === "red" && "safary")
       $("")
 
-  }
+  });
 
 
   $("form.language").submit(function(event) {
@@ -17,19 +17,19 @@ $(document).ready(function() {
     event.preventDefault();
 
     if (value === "ruby") {
-      $("python").hide();
-      $("c#").hide();
-      $("ruby").show();
+      $("#python").hide();
+      $("#c#").hide();
+      $("#ruby").show();
 
-    } else (value === "python") {
-      $("ruby").hide();
-      $("c#").hide();
-      $("python").show();
+    } else (value==="python") {
+      $("#ruby").hide();
+      $("#c#").hide();
+      $("#python").show();
 
-    } if ( value === "c#"") {
-      $("ruby").hide();
-      $("python").hide();
-      $("c#").show();
+    } else (value === "c#") {
+      $("#ruby").hide();
+      $("#python").hide();
+      $("#c#").show();
 
     }
 
