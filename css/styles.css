@@ -6,11 +6,11 @@ img {
   width: 20%;
   height: 30%;
 }
+
 .banner {
   display: flex;
   background-color: teal;
   justify-content: center;
-
 }
 
 h1 {
@@ -22,11 +22,8 @@ h2 {
   font-style: italic;
 }
 
-h3 {
-  font-style: italic;
-}
-.body {
-  background-color:
+body {
+  background-image: url("matrix.jpeg");
 }
 
 .form-group {

@@ -28,29 +28,6 @@ $(document).ready(function() {
 
 
 
-  $("form.language").submit(function(event) {
-    var value = $("#language option:selected").val();
-    event.preventDefault();
 
-console.log();
-
-    if (value === "ruby") {
-      $("#python").hide();
-      $("#csharp").hide();
-      $("#ruby").show();
-
-    } else if (value === "python") {
-      $("#ruby").hide();
-      $("#csharp").hide();
-      $("#python").show();
-
-    } else if (value === "csharp") {
-      $("#ruby").hide();
-      $("#python").hide();
-      $("#csharp").show();
-
-    }
-
-  });
 
 });
