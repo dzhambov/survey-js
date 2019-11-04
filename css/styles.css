@@ -1,4 +1,4 @@
-#ruby, #python, #c# {
+#ruby, #python, #csharp {
   display: none;
 }
 
@@ -27,4 +27,9 @@ h3 {
 }
 .body {
   background-color:
+}
+
+.form-group {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

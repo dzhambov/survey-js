@@ -14,6 +14,7 @@
         <h2>Take This Quick Survey To Decide Which Programming Language Is Best For You!</h2>
       </div>
 
+      <form id="survey">
       <div class="row">
         <div class="col-md-12 col-sm-6">
           <div class="panel panel-info">
@@ -27,9 +28,9 @@
                 <div class="form-group">
                   <select class="custom-select my-1 mr-sm-2" id="color">
                     <option>Choose a color...</option>
-                    <option value="red">Red</option>
-                    <option value="green">Green</option>
-                    <option value="blue">Blue</option>
+                    <option value="5">Red</option>
+                    <option value="3">Green</option>
+                    <option value="1">Blue</option>
                   </select>
                 </div>
 
@@ -38,46 +39,47 @@
                 <div class="form-group">
                   <select class="custom-select my-1 mr-sm-2" id="browser">
                     <option>Favorite browser...</option>
-                    <option value="safari">Safari</option>
-                    <option value="explorer">Explorer</option>
-                    <option value="chrome">Chrome</option>
+                    <option value="5">Safari</option>
+                    <option value="3">Explorer</option>
+                    <option value="1">Chrome</option>
                   </select>
                 </div>
 
                 <p>What Is Your Favorite PC?</p>
                 <div class="form-group">
-                  <select class="custom-select my-1 mr-sm-2" id="browser">
+                  <select class="custom-select my-1 mr-sm-2" id="pc">
                     <option>Favorite PC...</option>
-                    <option value="apple">Apple</option>
-                    <option value="hp">HP</option>
-                    <option value="lenovo">Lenovo</option>
+                    <option value="5">Apple</option>
+                    <option value="3">HP</option>
+                    <option value="1">Lenovo</option>
                   </select>
                 </div>
 
                 <p>What Is Your Favorite City?</p>
                 <div class="form-group">
-                  <select class="custom-select my-1 mr-sm-2" id="browser">
+                  <select class="custom-select my-1 mr-sm-2" id="city">
                     <option>Favorite City...</option>
-                    <option value="portland">Portland</option>
-                    <option value="sofia">Sofia</option>
-                    <option value="nyc">NYC</option>
+                    <option value="5">Portland</option>
+                    <option value="3">Sofia</option>
+                    <option value="1">NYC</option>
                   </select>
                 </div>
 
                 <p>Do You Like Playing LEGO?</p>
                 <div class="form-group">
-                  <select class="custom-select my-1 mr-sm-2" id="browser">
+                  <select class="custom-select my-1 mr-sm-2" id="lego">
                     <option>Do You Like LEGO...</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
+                    <option value="2">Yes</option>
+                    <option value="2">No</option>
                   </select>
                 </div>
+                <button type="submit" class="btn btn-primary" name="button">Submit</button>
               </form>
 
-              <button type="submit" class="btn btn-primary" name="button">Submit</button>
+
 
               </div>
-
+        </form>
               <div class="panel-footer info">
                 <p><strong>Thank You For Taking The Time To Answer These Questions</strong></p>
               </div>
@@ -93,16 +95,16 @@
                 <h3>What Was Your Result? Choose your language to find out more!<h3>
 
               <div class="panel panel-body">
-              <form class="form-inline language"
+              <form class="form-inline language">
                 <div class="form-group">
                   <select class="custom-select my-1 mr-sm-2" id="Choice">
                     <option>Your Language Is...</option>
                     <option value="ruby">Ruby</option>
                     <option value="python">Python</option>
-                    <option value="c#">C#</option>
+                    <option value="csharp">C#</option>
                   </select>
                 </div>
-                <button type="button" class="btn btn-warning">Choose</button>
+                <button type="submit" class="btn btn-warning">Choose a Langueage</button>
               </form>
               </div>
             </div>
@@ -121,7 +123,7 @@
           Important reasons why you should use <a href="https://medium.com/@mindfiresolutions.usa/python-7-important-reasons-why-you-should-use-python-5801a98a0d0b"><strong>Python</strong></a>.</p>
           <img src="img/python.png">
         </div>
-        <div class="panel-body" id="c#">
+        <div class="panel-body" id="csharp">
           <p>C# can be used to create almost anything but is particularly strong at building Windows desktop applications and games. C# can also be used to develop web applications and has become increasingly popular for mobile development too.
           Why it is worth learing <a href="https://medium.com/sololearn/why-is-c-among-the-most-popular-programming-languages-in-the-world-ccf26824ffcb"><strong>C#</strong></a>?</p>
           <img src="img/download.png">
